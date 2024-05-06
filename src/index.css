@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+nav ul{
+  display: flex;
+  align-items:center;
+  flex-direction: row;
+  justify-content: end;
+  padding-right: 100px;
+  gap: 100px;
+  list-style: none;
+  background-color: #505c50;
+  height: 5vh;
+  background-size: cover;
+  
+}
+nav a{
+  text-decoration: none;
+  color:white;
+}
+.landingPage{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('landing.webp');
+  height: calc(100vh - 5vh);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.landingPageOpener{
+  color: aliceblue;
+  width: 50%;
+  align-self: center;
+  padding-left: 20px;
+}
+.startShoppingButton{
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 20;
+
+
+}
+.shoppingCard img{
+  height:300px;
+  width: 250px;
+  
+}
+.listContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.shoppingCard{
+  width: 20%;
+}
+.loadingScreen{
+  padding-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+ 
+  font-size: 100px;
+}
+.checkoutButton{
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.checkoutButton:hover{
+  background-color: #45a049;
+
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: flex-end;
+}
